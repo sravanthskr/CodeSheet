@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Two Sum",
+    "link": "https://leetcode.com/problems/two-sum/",
+    "topic": "Arrays",
+    "subTopic": "Hash Table",
+    "difficulty": "Easy",
+    "sheetType": "DSA"
+  },
+  {
+    "title": "Add Two Numbers",
+    "link": "https://leetcode.com/problems/add-two-numbers/",
+    "topic": "Linked List",
+    "subTopic": "Math",
+    "difficulty": "Medium",
+    "sheetType": "DSA"
+  },
+  {
+    "title": "Longest Substring Without Repeating Characters",
+    "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "topic": "Strings",
+    "subTopic": "Sliding Window",
+    "difficulty": "Medium",
+    "sheetType": "DSA"
+  },
+  {
+    "title": "Median of Two Sorted Arrays",
+    "link": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "topic": "Arrays",
+    "subTopic": "Binary Search",
+    "difficulty": "Hard",
+    "sheetType": "DSA"
+  },
+  {
+    "title": "Reverse Integer",
+    "link": "https://leetcode.com/problems/reverse-integer/",
+    "topic": "Math",
+    "subTopic": "Integer Manipulation",
+    "difficulty": "Easy",
+    "sheetType": "DSA"
+  },
+  {
+    "title": "Valid Parentheses",
+    "link": "https://leetcode.com/problems/valid-parentheses/",
+    "topic": "Stack",
+    "subTopic": "String Matching",
+    "difficulty": "Easy",
+    "sheetType": "DSA"
+  },
+  {
+    "title": "Merge Two Sorted Lists",
+    "link": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "topic": "Linked List",
+    "subTopic": "Two Pointers",
+    "difficulty": "Easy",
+    "sheetType": "DSA"
+  },
+  {
+    "title": "Binary Tree Inorder Traversal",
+    "link": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "topic": "Binary Tree",
+    "subTopic": "Tree Traversal",
+    "difficulty": "Easy",
+    "sheetType": "DSA"
+  },
+  {
+    "title": "Climbing Stairs",
+    "link": "https://leetcode.com/problems/climbing-stairs/",
+    "topic": "Dynamic Programming",
+    "subTopic": "Fibonacci",
+    "difficulty": "Easy",
+    "sheetType": "DSA"
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock",
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "topic": "Arrays",
+    "subTopic": "Greedy",
+    "difficulty": "Easy",
+    "sheetType": "DSA"
+  },
+  {
+    "title": "Combine Two Tables",
+    "link": "https://leetcode.com/problems/combine-two-tables/",
+    "topic": "Joins",
+    "subTopic": "LEFT JOIN",
+    "difficulty": "Easy",
+    "sheetType": "SQL"
+  },
+  {
+    "title": "Second Highest Salary",
+    "link": "https://leetcode.com/problems/second-highest-salary/",
+    "topic": "Subqueries",
+    "subTopic": "LIMIT OFFSET",
+    "difficulty": "Medium",
+    "sheetType": "SQL"
+  },
+  {
+    "title": "Employees Earning More Than Their Managers",
+    "link": "https://leetcode.com/problems/employees-earning-more-than-their-managers/",
+    "topic": "Self Join",
+    "subTopic": "Comparison",
+    "difficulty": "Easy",
+    "sheetType": "SQL"
+  },
+  {
+    "title": "Duplicate Emails",
+    "link": "https://leetcode.com/problems/duplicate-emails/",
+    "topic": "Aggregation",
+    "subTopic": "GROUP BY HAVING",
+    "difficulty": "Easy",
+    "sheetType": "SQL"
+  },
+  {
+    "title": "Design a URL Shortener",
+    "link": "https://github.com/donnemartin/system-design-primer#design-pastebin",
+    "topic": "System Design",
+    "subTopic": "URL Shortening",
+    "difficulty": "Medium",
+    "sheetType": "System Design"
+  },
+  {
+    "title": "Design a Chat System",
+    "link": "https://github.com/donnemartin/system-design-primer#design-a-chat-service",
+    "topic": "System Design",
+    "subTopic": "Real-time Communication",
+    "difficulty": "Hard",
+    "sheetType": "System Design"
+  },
+  {
+    "title": "Build a Todo App with React",
+    "link": "https://reactjs.org/tutorial/tutorial.html",
+    "topic": "Frontend",
+    "subTopic": "React Components",
+    "difficulty": "Easy",
+    "sheetType": "Web Development"
+  },
+  {
+    "title": "Create REST API with Node.js",
+    "link": "https://nodejs.org/en/docs/guides/getting-started-guide/",
+    "topic": "Backend",
+    "subTopic": "Express.js",
+    "difficulty": "Medium",
+    "sheetType": "Web Development"
+  }
+]

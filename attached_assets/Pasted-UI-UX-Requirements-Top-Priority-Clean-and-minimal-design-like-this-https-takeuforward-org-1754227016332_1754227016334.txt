@@ -1,0 +1,155 @@
+UI & UX Requirements (Top Priority):
+🔵 Clean and minimal design like this:
+https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/
+
+📱 Fully responsive (mobile-first)
+
+Use a simple grid or table layout
+
+Avoid bulky cards or unnecessary animations
+
+No clutter or "overstyling" (keep padding/margins balanced)
+
+🌗 Light/Dark theme toggle
+
+Respect system theme by default
+
+Smooth transitions between themes
+
+Save preference in localStorage
+
+🧠 User experience should feel native and intuitive
+
+Navigation should be fast, clear, and minimal
+
+All elements should be usable and readable on all devices
+
+Use tooltips, icons, and subtle hover effects
+
+🧩 Functional Requirements
+🔐 Authentication:
+Login/Register using Firebase Email/Password + Google
+
+Save user info in Firestore
+
+Detect admin via role field (role: "admin")
+
+🧾 Dashboard for All Users:
+Show problems by categories: DSA, SQL, etc.
+
+Filter options:
+
+Topic
+
+Sub-topic
+
+Difficulty (Easy, Medium, Hard)
+
+Status (Solved ✅ / Starred ⭐ / Unsolved)
+
+Each problem entry should show:
+
+Title (linked to question)
+
+Difficulty (colored label)
+
+Topic/SubTopic
+
+Star toggle
+
+Solve toggle
+
+Editable note (autosaves or saves on blur)
+
+🧑‍💻 Admin Panel:
+Add problem (form): Title, Link, Difficulty, Topic, SubTopic, SheetType
+
+Upload CSV/JSON using PapaParse
+
+Preview before uploading
+
+Use Firebase batch writes
+
+Edit/Delete problems inline or via modal
+
+🔐 Routing & State:
+Use React Router with Public/Private/Admin route guards
+
+Use Zustand or Context API for:
+
+Auth
+
+Theme
+
+User metadata (role, UID, etc.)
+
+📁 Firebase Structure (Firestore):
+yaml
+Copy
+Edit
+users/{uid}:
+  name
+  email
+  role: "admin" | "user"
+  solvedProblems: []
+  starredProblems: []
+  notes: { problemId: note }
+
+problems/{autoId}:
+  title
+  link
+  difficulty
+  topic
+  subTopic
+  sheetType
+🎨 Design Instructions:
+Follow the clean structure and spacing from Striver's sheet
+
+Use a grid or table, not bulky card-based layout
+
+No bright color overuse, keep tones soft and readable
+
+Use Tailwind's bg-gray-100, text-gray-800, hover:bg-gray-200 styles
+
+Use HeroIcons or Lucide icons, small size, consistent placement
+
+Provide instant visual feedback on toggle/actions (like star/solved)
+
+✅ Final Expectations:
+Zero design clutter — should look professional and simple
+
+Works perfectly across all screen sizes
+
+Fully functional theme toggle
+
+Admin & User features working end-to-end
+
+Easy-to-navigate UI, like Striver’s DSA sheet
+
+Avoid complex UI elements unless necessary
+
+All core features (auth, Firestore updates, routing) must work
+
+Ready for deployment (Firebase Hosting compatible)
+
+🔧 Firebase Config to Use:
+js
+Copy
+Edit
+const firebaseConfig = {
+  apiKey: "AIzaSyAkEthV64oQrb0q31ORiY14dN0PKnRBQEA",
+  authDomain: "coding-sheet-all.firebaseapp.com",
+  projectId: "coding-sheet-all",
+  storageBucket: "coding-sheet-all.firebasestorage.app",
+  messagingSenderId: "369170667206",
+  appId: "1:369170667206:web:4b13225648b5de4422a9c7",
+  measurementId: "G-7GK6S4W9T0"
+};
+And use this in .env format:
+
+ini
+Copy
+Edit
+VITE_FIREBASE_API_KEY=AIzaSyAkEthV64oQrb0q31ORiY14dN0PKnRBQEA
+VITE_FIREBASE_APP_ID=1:369170667206:web:4b13225648b5de4422a9c7
+VITE_FIREBASE_PROJECT_ID=coding-sheet-all
